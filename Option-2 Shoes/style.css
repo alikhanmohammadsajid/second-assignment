@@ -1,0 +1,30 @@
+
+.card-title{
+    color: navy;
+}
+.shoes-title{
+    background-color: honeydew;
+    border: 20px solid whitesmoke;
+    border-radius: 10px;
+    
+}
+.card-img-top{
+    background-color: ivory;
+    border-radius: 10px;
+}
+.shopping-cart{
+    width: 25px;
+}
+.taka{
+    color: tomato;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+@media all and (max-width:500px) {
+    .feature{
+        display: inline;
+    }
+}
